@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GamepadUMG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GamepadUMGPlugin",
+			"Enabled": true
+		}
+	]
+}

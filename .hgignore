@@ -1,0 +1,86 @@
+#Ignored Unreal Files
+
+syntax: glob
+
+Binaries/
+DerivedDataCache/
+Intermediate/
+Plugins/AdvancedSessions
+Plugins/MainMenuLib
+Plugins/VictoryPlugin
+Plugins/LoadingScreen
+Plugins/LoadingScreen-master
+Plugins/GamepadUMGPlugin
+.vs/
+WindowsNoEditor/
+Visual Studio 2015/
+Visual Studio 2015Templates/
+Visual Studio 2015Projects/
+
+*.opensdf
+*.suo
+*.sln
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+
+# Allowed Files
+Saved/*
+!Saved/Config
+Saved/Config/*
+!Saved/Config/Windows
+Saved/Config/Windows/*
+!Saved/Config/Windows/Game.ini
+!Saved/Config/Windows/Input.ini
+Saved/Config/WindowsNoEditor/*
+!Saved/Config/WindowsNoEditor/Game.ini
+!Saved/Config/WindowsNoEditor/Input.ini
+
+
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/.project
